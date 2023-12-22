@@ -5,7 +5,7 @@ laber: ["bug","triage"]
 projects: ["octo-org/1","octo-org/44"]
 assignment:
   -octocat
-  body:
+body:
    -type: markdown
    attributes:
    value:
