@@ -6,7 +6,7 @@ projects: ["octo-org/1","octo-org/44"]
 assignment:
   - octocat
 body:
-   - type: markdown
+   -type: markdown
    attributes:
    value:
   Thanks for talking the time to fill out this bug report!
