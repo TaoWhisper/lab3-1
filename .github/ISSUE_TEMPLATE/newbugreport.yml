@@ -1,7 +1,7 @@
 name:Bug Report
 Describtion: File a bug report
 title: "[Bug]: "
-labers: ["bug","triage"]
+laber: ["bug","triage"]
 projects:["octo-org/1","octo-org/44"]
 assignment:
   -octocat
