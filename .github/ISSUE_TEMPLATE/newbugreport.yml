@@ -1,16 +1,16 @@
 name: Bug Report
-Describtion: File a bug report
+Description: File a bug report
 title: "[Bug]: "
-laber: ["bug","triage"]
+label: ["bug","triage"]
 projects: ["octo-org/1","octo-org/44"]
 assignment:
-  -octocat
+  - octocat
 body:
-   -type: markdown
+   - type: markdown
    attributes:
    value:
   Thanks for talking the time to fill out this bug report!
-  -type: input
+  - type: input
   id:contact
   attributes:
     laber:Contact detials
@@ -18,7 +18,7 @@ body:
     placeholder:ex.email@example.com
   validations:
    required:false
--type:textarea
+- type:textarea
  id:what-happend
  attributes:
   laber:what happend?
@@ -27,7 +27,7 @@ body:
   value:"A bug happend!"
 validations:
  required: true
--type:dropdown
+- type:dropdown
  id:version
  attributes:
   laber:Version
@@ -38,7 +38,7 @@ validations:
   default: 0
   validations:
   required: true
--type: dropdown
+- type: dropdown
  id:browers
  attributes:
  laber:What browers are you seeing the problem on?
@@ -48,19 +48,19 @@ validations:
    - Chrome
    - Safari
    - Mircosoft Edge
--type: textarea
+- type: textarea
  id: logs
  attributes:
    laber: Relevant log output
    descriptions:Please copy and paste any relevant log output.This willbe automatically formatted into code, so no need for backticks.
    render: shell
--type: checkboxes
+- type: checkboxes
   id: terms
   attributes:
-    laber: Code of Conduct
+    label: Code of Conduct
     descriptions:By submitting this isssue,you agree to follow our [Code of Conduct] (https://example.com)
   options:
-   -laber: I agree to follow this project's Code of Conduct
+   -label: I agree to follow this project's Code of Conduct
     required: true
 
   
